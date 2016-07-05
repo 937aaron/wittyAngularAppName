@@ -48,6 +48,12 @@ table {
 }
 
 // end of reset!!!!!!!!!!
+body {
+  font-family: 'Berkshire Swash', cursive;
+}
+button:focus{
+  outline:none;
+}
 .link {
   font-size: 2em;
   margin-top: 100px;
@@ -72,13 +78,18 @@ table {
   margin-right: auto;
   .visual {
     font-size: 1.5em;
+    padding-bottom: 2px;
   }
   .rules{
       color: red;
       font-size: 1.25em;
+      font-family: 'IM Fell English SC', serif;
+
   }
   .whereYouAre {
     font-size: 1.25em;
+    font-family: 'IM Fell English SC', serif;
+
   }
 }
 .navigation {
