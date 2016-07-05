@@ -1,0 +1,17 @@
+<div class="gameContainer">
+  <div class="dialouge">
+    <p class="visual"> You see {{board}}</p>
+    <p class="rules">{{cantMove}} </p>
+    <div class="whereYouAre">
+      <p class="move" ng-show="moveHide">You moved {{diceMoveForward}} feet forward and {{diceMoveSide}} feet sideways</p>
+    </div>
+  </div>
+  <div class="navigation">
+    <button class="forward" ng-click = 'forwardFunc(); moveFunc()'> Forward! </button>
+    <button class="left" ng-click = 'leftFunc(); moveFunc()'> Left! </button>
+    <button class="right" ng-click = 'rightFunc(); moveFunc()'> Right! </button>
+    <button class="back" ng-click = 'backFunc(); moveFunc()'> Back! </button>
+    <button class="dice" ng-click='rollFunc(); moveFunc()'>Move Random!</button>
+
+  </div>
+</div>
